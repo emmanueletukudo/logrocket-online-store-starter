@@ -1,5 +1,5 @@
 {
-  "name": "logrocketMobileStore",
+  "name": "LogRocketOnlineStore",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,17 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/blur": "^3.6.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-native": "0.63.4",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-reanimated": "^1.13.0",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-screens": "^2.11.0",
+    "react-native-svg": "^12.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
